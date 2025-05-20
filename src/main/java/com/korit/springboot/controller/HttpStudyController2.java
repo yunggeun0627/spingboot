@@ -17,7 +17,7 @@ import java.util.*;
             hobby: [축구, 농구]
         },
         {
-            name: 예,
+            name: 예일근,0
             age: 22,
             hobby: [골프, 낚시]
         }
