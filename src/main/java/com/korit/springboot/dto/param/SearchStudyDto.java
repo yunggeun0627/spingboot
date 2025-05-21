@@ -3,6 +3,7 @@ package com.korit.springboot.dto.param;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+
 @Data
 @AllArgsConstructor
 public class SearchStudyDto {

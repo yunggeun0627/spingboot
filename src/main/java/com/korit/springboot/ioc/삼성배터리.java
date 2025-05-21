@@ -14,5 +14,4 @@ public class 삼성배터리 implements 배터리 {
         System.out.println("삼성 베터리 충전합니다.");
     }
 
-
 }

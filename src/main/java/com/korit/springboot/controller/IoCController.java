@@ -1,5 +1,6 @@
 package com.korit.springboot.controller;
 
+import com.korit.springboot.ioc.BeanStudy;
 import com.korit.springboot.ioc.배터리;
 import com.korit.springboot.ioc.삼성배터리;
 import com.korit.springboot.ioc.스마트폰;
@@ -11,10 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
+@AllArgsConstructor
 public class IoCController {
 
-    @Autowired
     private 스마트폰 s;
+    private BeanStudy beanStudy;
 
 //    public IoCController(스마트폰 s) {        // 생성자
 //        this.s = s;

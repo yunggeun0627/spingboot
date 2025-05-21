@@ -90,14 +90,13 @@ public class HttpStudyController3 {
 
 
 
-        for(int i = 0; i < 50; i++) {
+        for(int i = 0; i < 1000; i++) {
             StringBuilder builder = new StringBuilder();
             builder.append((char) (startCode + random.nextInt(endCode - startCode + 1)));
             builder.append((char) (startCode + random.nextInt(endCode - startCode + 1)));
             builder.append((char) (startCode + random.nextInt(endCode - startCode + 1)));
             students.add(new Student(builder.toString(), random.nextInt(100) + 1));
         }
-
 //        if(page != null && page < 1) {
 //            page = 1;
 //        }
