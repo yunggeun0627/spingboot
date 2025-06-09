@@ -14,7 +14,7 @@ public class TreatmentController {
 
     private TreatmentRepository treatmentRepository;
 
-    @PostMapping("/api/clinin/treatments")
+    @PostMapping("/api/clinic/treatments")
     public ResponseEntity<?> register(@RequestBody Treatment treatment) {
         treatmentRepository.save(treatment);
         return ResponseEntity.ok(true);

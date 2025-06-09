@@ -22,7 +22,7 @@ public class DoctorController {
      */
 
 
-    @PostMapping("/api/clinin/doctors")
+    @PostMapping("/api/clinic/doctors")
     public ResponseEntity<?> register(@RequestBody DoctorRegisterDto dto) {
         doctorService.register(dto);
         return ResponseEntity.ok(null);
